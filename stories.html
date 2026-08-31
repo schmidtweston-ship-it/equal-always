@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0908" />
+  <meta name="description" content="Eve and Weston. Stories. Humor and absolute magical days and nights." />
+  <meta name="robots" content="noindex" />
+  <title>Eve &amp; Weston — Stories</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      --ink: #0b0908;
+      --bone: #f0e6d8;
+      --bone-dim: #c9b8a4;
+      --gold: #d4b45a;
+      --gold-dim: #a88b3e;
+      --mute: #8a7b6c;
+      --safe-top: env(safe-area-inset-top, 0px);
+      --safe-bot: env(safe-area-inset-bottom, 0px);
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      background: var(--ink);
+      color: var(--bone);
+    }
+    body {
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.55;
+    }
+    .cord {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.18;
+      background:
+        radial-gradient(ellipse at 18% 8%, rgba(212,180,90,0.18), transparent 42%),
+        radial-gradient(ellipse at 88% 92%, rgba(107,42,50,0.22), transparent 46%);
+    }
+    .wrap {
+      max-width: 38rem;
+      margin: 0 auto;
+      padding: calc(2.4rem + var(--safe-top)) 1.4rem calc(3.2rem + var(--safe-bot));
+      position: relative;
+    }
+    header.hero {
+      text-align: center;
+      padding: 2.2rem 0 2.8rem;
+    }
+    .mark {
+      width: 4.5rem;
+      height: 2px;
+      background: var(--gold);
+      margin: 0 auto 1.35rem;
+    }
+    .kicker {
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      color: var(--gold);
+      margin: 0 0 0.85rem;
+    }
+    h1 {
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(2.4rem, 10vw, 3.35rem);
+      letter-spacing: -0.035em;
+      line-height: 1.08;
+      margin: 0 0 0.55rem;
+    }
+    .sub {
+      font-family: "Iowan Old Style", Palatino, Georgia, serif;
+      font-size: 1.15rem;
+      color: var(--bone-dim);
+      margin: 0;
+    }
+    a.back {
+      color: var(--gold-dim);
+      text-decoration: none;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+    }
+    a.back:hover { color: var(--gold); }
+    section {
+      padding: 1.85rem 0 0.4rem;
+      border-top: 1px solid rgba(212,180,90,0.18);
+    }
+    h2 {
+      font-family: "Iowan Old Style", Palatino, Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(1.55rem, 6vw, 1.95rem);
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+      margin: 0 0 0.85rem;
+      color: var(--gold);
+    }
+    p { margin: 0 0 0.9rem; color: var(--bone); }
+    .lede { font-family: "Iowan Old Style", Palatino, Georgia, serif; font-size: 1.18rem; line-height: 1.4; }
+    .open {
+      color: var(--mute);
+      font-style: italic;
+    }
+    footer {
+      margin-top: 2.4rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid rgba(212,180,90,0.18);
+      color: var(--mute);
+      font-size: 0.78rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="cord" aria-hidden="true"></div>
+  <div class="wrap">
+    <header class="hero">
+      <p class="kicker">Equal Always</p>
+      <div class="mark"></div>
+      <h1>Stories</h1>
+      <p class="sub">Humor. Absolute magical days and nights.</p>
+      <p style="margin-top:1.4rem"><a class="back" href="./">Back to Equal Always</a></p>
+    </header>
+
+    <section>
+      <h2>Ready</h2>
+      <p class="lede">A mixture of humor and absolute magical days and nights.</p>
+      <p class="open">Empty on purpose. Nothing invented to fill the space. He’ll drop them later.</p>
+    </section>
+
+    <footer>
+      <p>In ealwith. Equal standing. Neither owns the other.</p>
+      <p>Palette is a placeholder. Our colors are not named yet.</p>
+    </footer>
+  </div>
+</body>
+</html>
